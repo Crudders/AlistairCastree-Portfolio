@@ -1,0 +1,125 @@
+*{font-family:Arial,Helvetica,sans-serif;}
+	body,html {
+		padding: 0px; 
+		margin: 0px;
+		background-color: #DDEDF8;
+		color: #001011;
+		border: solid 5px;
+		border-color: #001011;
+		text-align: center;
+		}
+.rcorners1	{
+		border-radius: 40px;
+		}
+.tbl 	{
+		text-align: left;
+		}
+.center {
+		text-align: center;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		}
+.title 	{
+		background-image: linear-gradient(to bottom, rgb(9,58,62), rgb(221, 237, 248));
+		color: white;
+		text-align: center;
+		padding: 10px;
+		}
+.myname {
+		font-size: 60px;
+		text-align:center;
+		}
+.navbttn {
+		margin-left: auto;
+		margin-right: auto;
+		border: hidden;
+		display: block;
+		width: 20%;
+		background-color: #093A3E; 
+		padding: 15px;
+		color: white;
+		text-align: center;
+		text-decoration: none;
+		font-size: 50px;
+		cursor: pointer;
+		border-radius: 20px;
+		transition-duration: 0.4s;
+		}
+.navbttn:hover {
+		background-color: #3AAFB9;
+		color: black;
+		border: solid 5px #001011;
+		}
+.footer {
+		margin-top: 20px;
+		background: #093A3E;
+		text-align: center;
+		color: white;
+		padding: 10px;
+		background-image: linear-gradient(to bottom, rgb(221, 237, 248), rgb(9,58,62));
+		}
+.summary{
+		width: 60%;
+		margin-left: 310px;
+		text-align: center;
+		}
+.skills	{
+		text-align: left;
+		width: 60%;
+		margin-left: 270px;
+		}
+.work 	{
+		text-align: left;
+		margin-left: 300px;
+		}
+.clickstartbttn {
+		margin: auto;
+		width: 16%;
+		display: inherit;
+		background-color: white;
+		box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+		}
+.clickstartbttn:hover {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+.facepbttn {
+		margin: auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		width: 16%;
+		display: block;
+		background-color: white;
+		box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+		}
+.facepbttn:hover {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+.CVbttn {
+		margin: auto;
+		width: 20%;
+		background-color: #093A3E;
+		border: hidden;
+		padding: 15px;
+		text-align: center;
+		font-size: 50px;
+		cursor: pointer;
+		border-radius: 20px;
+		transition-duration: 0.4s;
+		}
+.CVbttn:hover {
+		background-color: #3AAFB9;
+		color: black;
+		border: solid 5px #001011;
+		}
+.CVtxt {
+		color: white;
+		text-decoration: none;
+		}
+.CVtxt:visited {
+		color: white;
+		text-decoration: none;
+		}
+.CVtxt:hover {
+		color: black;
+		}
